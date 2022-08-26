@@ -3,26 +3,19 @@ D.CHARANN TEJA      [MCSAIR      ROLLNO:37      ADCKKD]
 
 
 #include <stdio.h>
-int main(void) 
+int main()
 {
-    int i,j;
-    int n;
-    scanf("%d",&n);
-    for(i=1;i<=n;i++)
+    char str[30];
+    int i;
+    printf("Enter String : ");
+    gets(str);
+    for(i=0;str[i]!='\0';i++)
     {
-        printf("%d\t",i);
+        if( (i % 2) == 0)
+        str[i] = tolower(str[i]);
+        else
+        str[i] = toupper(str[i]);
     }
-    printf("\n");
-    for(i=1;i<=n;i++)
-    {
-        for(j=1;j<=n;j++)
-        {
-            printf("%d\t",i*j);
-        }
-    
-    
-        printf("\n");
-}
-
+    printf("\n%s",str);
     return 0;
 }
