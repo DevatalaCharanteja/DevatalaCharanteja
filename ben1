@@ -2,18 +2,17 @@ D.CHARANN TEJA      [MCSAIR      ROLLNO:37      ADCKKD]
 
 
 #include <stdio.h>
-void main() {
-    int i,j,n;
-    scanf("%d",&n);
-    for(i=n;i>=1;i--)
+#include <string.h>
+void main()
+{
+    char s[200];
+    int count=0,i;
+    printf("Enter the string:\n");
+    scanf("%[^\n]s",s);
+    for (i=0;s[i]!='\0';i++)
     {
-        for(j=n;j>=i;j--)
-    
-        {  
-            printf("%d\t",j);
-        }
-    
-    printf("\n");
+        if (s[i]==' '&&s[i+1]!=' ')
+        count++;    
     }
-    return 0;
+    printf("Number of words in given string = %d\n",count+1);
 }
