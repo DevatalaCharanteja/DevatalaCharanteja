@@ -1,3 +1,6 @@
+D.Charan teja [MCSAIR    ROLLNO:37     ADCKKD] 
+
+
 #include<bits/stdc++.h>
 using namespace std;
 int josephus(int n, int k)
