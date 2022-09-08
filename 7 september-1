@@ -1,0 +1,31 @@
+D.Charan teja[MCSAIR    ROLLNO:37     ADCKKD]  
+
+
+
+void main()
+{
+   int first=0,second=1, sum=0;
+   sum=first+second;
+int n;int k=0;
+scanf("%d",&n);
+if(n==1 || n==0)
+  k=1;
+else
+{
+while(sum<=n)
+{
+  sum=first+second;
+  first=second;
+second = sum;
+ if(sum==n)
+  {
+   k=1;
+   break;
+  }  
+ }
+}
+ if(k==0)
+   printf("No");
+  else
+    printf("Yes");
+}
