@@ -1,9 +1,12 @@
 DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]
-DATE:21/11/2022
+DATE:22/11/2022
 
 
-# ADDITION OF TWO NUMBERS
-x = int(input('enter no1'))
-y = int(input('enter no2'))
-z = x + y
-print(z)
+#EMI
+p = int(input('enter principal amount:'))
+t = int(input('enter time period:'))
+r = float(input('enter rate of interest:'))
+s = (p * t * r) / 100
+# calculating emi
+e = (p + s) / t * 12
+print("EMI IS ", e)
