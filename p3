@@ -1,9 +1,18 @@
 DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]
-DATE:21/11/2022
+DATE:22/11/2022
 
 
-# MULTIPLICATION OF TWO NUMBERS
-x = int(input('enter no1'))
-y = int(input('enter no2'))
-z = x * y
-print(z)
+# STUDENT DETAILS
+no = int(input('Enter student number:'))
+name = str(input('Enter name:'))
+ge = str(input('Enter gender:'))
+g = str(input('Enter group:'))
+a = str(input('Enter address:'))
+p = int(input('Enter phone number:'))
+
+print("NUMBER = ", no)
+print("NAME = ", name)
+print("GENDER = ", ge)
+print("GROUP = ", g)
+print("ADDRESS = ", a)
+print("PHONE NUMBER = ", p)
