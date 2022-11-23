@@ -1,12 +1,8 @@
 DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]
-DATE:22/11/2022
+DATE:23/11/2022
 
 
-# SWAPPING OF TWO NUMBERS
-p = int(input('enter p:'))
-q = int(input('enter q:'))
-p = p + q
-q = p - q
-p = p - q
-print("p = ", p)
-print("q = ", q)
+#TWO NUMBERS ARE EQUAL OR NOT
+a = int(input('enter number1:'))
+b = int(input('enter number2:'))
+print('BOTH ARE EQUAL') if (a == b) else print('BOTH ARE NOT EQUAL')
