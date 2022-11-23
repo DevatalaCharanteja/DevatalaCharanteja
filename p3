@@ -2,6 +2,6 @@ DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]
 DATE:23/11/2022
 
 
-# EVEN NUMBER OR 
+# EVEN NUMBER OR ODD NUMBER
 a = int(input('Enter number:'))
 print('EVEN NUMBER') if (a%2 == 0) else print('ODD NUMBER')
