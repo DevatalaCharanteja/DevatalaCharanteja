@@ -1,7 +1,18 @@
 DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]
-DATE:23/11/2022
+DATE:24/11/2022
 
 
-# EVEN NUMBER OR ODD NUMBER
-a = int(input('Enter number:'))
-print('EVEN NUMBER') if (a%2 == 0) else print('ODD NUMBER')
+# STUDENT DETAILS
+sno = int(input('SNO'))
+name = input('NAME')
+group = input('GROUP')
+s1 = int(input('S1'))
+s2 = int(input('S2'))
+s3 = int(input('S3'))
+print(sno)
+print(name)
+print(group)
+if s1 >= 35 and s2 >= 35 and s3 >= 35:
+    print('pass')
+else:
+    print('fail')
