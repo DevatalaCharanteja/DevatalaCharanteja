@@ -1,18 +1,10 @@
-DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]
-DATE:24/11/2022
+DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]      DATE:25/11/2022
 
 
-# STUDENT DETAILS
-sno = int(input('SNO'))
-name = input('NAME')
-group = input('GROUP')
-s1 = int(input('S1'))
-s2 = int(input('S2'))
-s3 = int(input('S3'))
-print(sno)
-print(name)
-print(group)
-if s1 >= 35 and s2 >= 35 and s3 >= 35:
-    print('pass')
-else:
-    print('fail')
+A = [1, 2, 3, 4]
+es = 0
+for i in A:
+    for j in str(i):
+        if int(j) % 2 == 0:
+            es += int(j)
+    print('Sum = ',  str(es))
