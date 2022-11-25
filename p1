@@ -1,14 +1,10 @@
-DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]
-DATE:24/11/2022
+#DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]    DATE:25/11/2022
 
 
-# ARITHMETIC OPERATIONS
-a = int(input('Enter number1:'))
-b = int(input('Enter number2:'))
-print('a + b =', a + b)
-print('a - b =', a - b)
-print('a * b =', a * b)
-print('a / b =', a / b)
-print('a ** b =', a ** b)
-print('a // b =', a // b)
+A = [1, 2, 3, 4]
+n = int(input('Enter element'))
+if n in A:
+    print('available')
+else:
+    print('Not available')
 
