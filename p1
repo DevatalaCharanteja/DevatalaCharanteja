@@ -1,10 +1,9 @@
 #DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]    DATE:25/11/2022
 
 
-A = [1, 2, 3, 4]
-n = int(input('Enter element'))
-if n in A:
-    print('available')
+pin=1234
+n=int(input())
+if n==pin:
+    print('valid')
 else:
-    print('Not available')
-
+    print('not valid')
