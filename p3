@@ -1,10 +1,15 @@
 DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]      DATE:25/11/2022
 
-
-A = [1, 2, 3, 4]
-es = 0
-for i in A:
-    for j in str(i):
-        if int(j) % 2 == 0:
-            es += int(j)
-    print('Sum = ',  str(es))
+atm credit and balance
+pin=3762
+balance=1000
+cnt=1
+print('enter the pin')
+n=int(input())
+if pin==n:
+    while (cnt!=0):
+        print('enter amount to be credit')
+        credit=int(input())
+        balance=balance+credit
+        cnt=cnt-1;
+print(balance)
