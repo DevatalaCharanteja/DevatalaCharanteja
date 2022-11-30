@@ -1,16 +1,36 @@
-#DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]    DATE:29/11/2022
+#DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]    DATE:30/11/2022
 
-n1 = int(input('n1='))
-n2 = int(input('n2='))
-n3 = int(input('n3='))
-n4 = int(input('n4='))
-if n1 > n2 and n1 > n4 and n1 > n3:
-    print('n1 is bigger')
-elif n2 > n3:
-    print('n2 is bigger')
-elif n3 > n4:
-    print('n3 is bigger')
-elif n4 > n2:
-    print('n4 is bigger')
+
+
+
+g1 = int(input('grocery1 quantity ='))
+g2 = int(input('grocery2 quantity ='))
+g3 = int(input('grocery3 quantity ='))
+g4 = int(input('grocery4 quantity ='))
+g5 = int(input('grocery5 quantity ='))
+# g1=20,g2=30,g3=15,g4=10,g5=40
+cphno = input("cphno=")
+cname = input("cname=")
+addr = input("addr=")
+
+quantityies = g1 + g2 + g3 + g4 + g5
+bill = 20 * g1 + 30 * g2 + 15 * g3 + 10 * g4 + 40 * g5
+if bill > 3000:
+    tax = 5
+
+if bill > 2000:
+    tax = 7
+
+if bill > 1000:
+    tax = 10
+
+if bill > 500:
+    tax = 15
 else:
-    print("done")
+    tax = 100
+
+tax = tax + bill
+print("cphno=", cphno)
+print("cname=", cname)
+print("addr=", addr)
+print("tax=", tax)
