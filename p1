@@ -1,9 +1,16 @@
-#DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]    DATE:28/11/2022
+#DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]    DATE:29/11/2022
 
-
-pin=1234
-n=int(input())
-if n==pin:
-    print('valid')
+n1 = int(input('n1='))
+n2 = int(input('n2='))
+n3 = int(input('n3='))
+n4 = int(input('n4='))
+if n1 > n2 and n1 > n4 and n1 > n3:
+    print('n1 is bigger')
+elif n2 > n3:
+    print('n2 is bigger')
+elif n3 > n4:
+    print('n3 is bigger')
+elif n4 > n2:
+    print('n4 is bigger')
 else:
-    print('not valid')
+    print("done")
