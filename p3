@@ -1,15 +1,15 @@
-DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]      DATE:28/11/2022
+DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]      DATE:29/11/2022
 
-atm credit and balance
-pin=3762
-balance=1000
-cnt=1
-print('enter the pin')
-n=int(input())
-if pin==n:
-    while (cnt!=0):
-        print('enter amount to be credit')
-        credit=int(input())
-        balance=balance+credit
-        cnt=cnt-1;
-print(balance)
+sno = input('sno=')
+sname = input('sname=')
+group=input('group=')
+s1 = int(input('s1='))
+s2 = int(input('s2='))
+s3 = int(input('s3='))
+print('sno=',sno)
+print('sname=',sname)
+print('group=',group)
+if s1>=35 and s2>35 and s3 > 35:
+    print("PASS")
+else:
+    print("FAIL")
