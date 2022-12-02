@@ -1,5 +1,8 @@
-#DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]    DATE:01/11/2022
+#DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]    DATE:02/11/2022
 
 
-
-print("Hello, World!")
+#biggest of two numbers
+a=int(input())
+b=int(input())
+bignum=max(a,b)
+print(bignum,'is a big number' )
