@@ -1,7 +1,10 @@
-DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]      DATE:01/11/2022
+DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]      DATE:02/11/2022
 
 n=int(input())
 if n%4==0:
-    print('True')
+    print(n)
+    print('Yes given year is a Leap year')
+
 else:
-   print('False')
+    print(n)
+    print('No given year is not a Leap year')
