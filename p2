@@ -1,25 +1,21 @@
-DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]    DATE:29/11/2022
+DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]    DATE:02/12/2022
 
 
-empo = input('empo=')
-empname = input('empname=')
-empdesig = input('empdesig=')
+#!/bin/python3
 
-basicsalary = int(input('basicsalary = '))
-da = int(input('da='))
-ta = int(input('ta='))
-hra = int(input('hra='))
+import math
+import os
+import random
+import re
+import sys
 
-netsalary = basicsalary + da + ta + hra
-if netsalary > 100000:
-    tax = netsalary * 10 / 100
-if netsalary > 50000:
-    tax = 7
-if netsalary > 40000:
-    tax = 4
-if netsalary > 20000:
-    tax = 2
-if netsalary < 20000:
-    tax = 0
+n = int(input())
+if n % 2 != 0:
+    print('Weird')
+elif n % 2 == 0 and (5 >= n >= 2):
+    print('Not Weird')
+elif n % 2 == 0 and (20 >= n >= 6):
+    print('Weird')
+elif n % 2 == 0 and n > 20:
+    print('Not Weird')
 
-print('tax = ', tax)
