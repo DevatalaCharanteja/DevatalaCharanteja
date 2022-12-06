@@ -1,10 +1,11 @@
 DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]      DATE:02/11/2022
 
-n=int(input())
-if n%4==0:
-    print(n)
-    print('Yes given year is a Leap year')
+n = int(input("ENTER NUMBER"))
+s = 0
 
-else:
-    print(n)
-    print('No given year is not a Leap year')
+while n != 0:
+    d = int(n % 10)
+    s = s + d
+    n = n / 10
+
+print(s)
