@@ -1,22 +1,15 @@
 DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]    DATE:06/12/2022
 
 
-n = int(input())
-num = int(input('Enter num:'))
-largest = num  # 10
-smallest = num
-i = 1
-while i < n:
-    num = int(input('enter num:'))
-    # 20
-    if num > largest:
-        largest = num
-    if num < smallest:
-        smallest = num
-    i = i + 1
-dif = largest - smallest
-print(' largest num ', largest)
-print('smallest num', smallest)
-print('difference=', dif)
-
+n = int(input())                     
+t = n                                
+r = 0                                
+while n > 0:                         
+    d = n % 10                       
+    r = r * 10 + d                   
+    n = n // 10                      
+if t == r:                           
+    print('PALINDROME NUMBER')       
+else:                                
+    print('NOT A PALINDROME NUMBER') 
 
