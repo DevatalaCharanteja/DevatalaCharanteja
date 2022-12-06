@@ -1,8 +1,13 @@
-#DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]    DATE:02/11/2022
+#DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]    DATE:06/12/2022
 
 
-#biggest of two numbers
-a=int(input())
-b=int(input())
-bignum=max(a,b)
-print(bignum,'is a big number' )
+n = int(input())
+i = 2
+cnt = 1
+while n != 0:
+    if i % 2 != 0:
+        cnt = cnt + 1
+    i = i + 1
+    n = n - 1
+print(cnt)
+
