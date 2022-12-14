@@ -1,13 +1,6 @@
 DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]      DATE:06/12/2022
 
-n = int(input())                     
-t = n                                
-r = 0                                
-while t > 0:                         
-    d = t % 10                       
-    r = r + d ** 3                   
-    t = t // 10                      
-if n == r:                           
-    print('ARMSTRONG NUMBER')        
-else:                                
-    print('NOT A ARMSTRONG NUMBER')  
+l=[12,4,6,980,687,23]
+nl=set(l)
+nl.remove(max(nl))
+print(max(nl))
