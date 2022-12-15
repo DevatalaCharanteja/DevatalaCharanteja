@@ -1,15 +1,16 @@
-#DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]    DATE:14/12/2022
+#DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]    DATE:15/12/2022
+
 
 l=[]
-n=int(input('Enter how many numbers you want:'))
-l=list(map(int,input('Enter any number:').split()))
-max=l[0]
-min=l[0]
-for i in range(0,n):
-    if max<l[i]:
-        max=l[i]
-    if min>l[i]:
-        min=l[i]
-print(min)
-print(max)
-                   
+num=int(input())
+ol=list(map(int,input().split()))
+a=[]
+b=[]
+for i in range(0, num):
+    if ol[i]<0:
+        b.append(ol[i])
+    else:
+        a.append(ol[i])
+l= b + a
+for i in l:
+    print(i,end=' ')         
