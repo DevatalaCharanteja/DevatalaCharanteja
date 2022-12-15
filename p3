@@ -1,14 +1,15 @@
-DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]      DATE:14/12/2022
+DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]      DATE:15/12/2022
 
-l=[]
-n=int(input('Enter how many numbers you want:'))
-a=list(map(int,input('Enter any number:').split()))
-count=0
-for i in range(0,n-1):
+n=int(input())
+l=list(map(int,input().split()))
+a=int(input())
+check=0
+for i in range(0,n):
     for j in range(i+1,n):
-        if a[i]==a[j]:
-            count=count+1
-if count==0:
-    print('No')
+        if (l[i]-l[j])==a:
+            check=1
+            break
+if check==1:
+    print('YES')
 else:
-    print('Yes')
+    print('NO')
