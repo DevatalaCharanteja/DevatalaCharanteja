@@ -1,16 +1,8 @@
-#DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]    DATE:15/12/2022
+#DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]    DATE:16/12/2022
 
 
-l=[]
-num=int(input())
-ol=list(map(int,input().split()))
-a=[]
-b=[]
-for i in range(0, num):
-    if ol[i]<0:
-        b.append(ol[i])
-    else:
-        a.append(ol[i])
-l= b + a
-for i in l:
-    print(i,end=' ')         
+str=input()
+print(len(str))
+print(str.upper())
+print(str.lower())
+print(str.swapcase())         
