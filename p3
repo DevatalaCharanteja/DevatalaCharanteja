@@ -1,15 +1,9 @@
-DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]      DATE:15/12/2022
+#DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]      DATE:16/12/2022
 
-n=int(input())
-l=list(map(int,input().split()))
-a=int(input())
-check=0
-for i in range(0,n):
-    for j in range(i+1,n):
-        if (l[i]-l[j])==a:
-            check=1
-            break
-if check==1:
-    print('YES')
-else:
-    print('NO')
+n=input()
+count=0
+for i in n:
+    if (i.isdigit()==True):
+        count=count+1    
+print(count)
+
