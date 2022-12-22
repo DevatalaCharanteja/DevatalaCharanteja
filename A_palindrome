@@ -1,0 +1,14 @@
+#DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]    DATE:16/12/2022
+
+
+a = int(input('Enter value'))
+t = a
+r =0
+while t > 0:
+    b = t % 10
+    r = r * 10 + b
+    t = t // 10
+if a == r:
+    print('a is palindrome')
+else:
+    print('a is not-palindrome')
