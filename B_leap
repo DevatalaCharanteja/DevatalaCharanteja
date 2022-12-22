@@ -1,0 +1,12 @@
+#DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]    DATE:23/12/2022
+
+
+
+a = int(input('Enter value'))
+if a % 4 == 0 and a % 100 != 0:
+    print('leap year')
+elif a % 400 == 0 and a % 100 == 0:
+    print('leap year')
+else:
+    print('not leap year')
+
