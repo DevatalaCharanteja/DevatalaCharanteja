@@ -1,1 +1,6 @@
+m = int(input())
+if m % 2 == 0:
+    print("prime number")
+elif m % 2 != 0:
+    print("not prime number")
 
