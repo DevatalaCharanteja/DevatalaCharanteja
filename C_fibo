@@ -1,0 +1,17 @@
+#DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]      
+
+x = int(input('HOW MANY TERMS:'))
+l = 0
+m = 1
+c = 0
+if x <= 0:
+    print(m)
+elif x == 1:
+    print(x)
+else:
+    while c < x:
+        print(l)
+        h = l + m
+        l = m
+        m = h
+        c = c + 1
