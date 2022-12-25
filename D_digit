@@ -1,0 +1,7 @@
+DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]
+
+
+
+l=[1,4,57,87,45,81,97,287,5739,5643,564,82]
+print("MAXIMUM NO=",max(l))
+print("MINIMUM NO=",min(l))
