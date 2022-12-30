@@ -1,29 +1,16 @@
 # DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]
 
 
-def isHappyNumber(n):
-    if n == 1 or n == 7:
-        return True
-    s, x = n, n
-    while s > 9:
-        s = 0
-        while x > 0:
-            d = x % 10
-            s += d * d
-            x = int(x / 10)
-        if s == 1:
-            return True
-        x = s
+list1 = [10, 21, 4, 45, 66, 93, 1]
 
-    if s == 7:
-        return True
+even_count = 0
 
-    return False
+# iterating each number in list
+for num in list1:
 
+    # checking condition
+    if num % 2 == 0:
+        even_count += 1
 
-n = int(input('ENTER NUM'))
+print("Even numbers in the list: ", even_count)
 
-if isHappyNumber(n):
-    print(n, 'happy number')
-else:
-    print(n, 'not happy number')
