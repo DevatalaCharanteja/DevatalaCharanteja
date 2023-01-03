@@ -1,40 +1,9 @@
 #DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]    
 
-from tkinter import*
-def addnumber():
-    a = int(e1.get())
+x = int(input())
+y = int(input())
+z = int(input())
+n = int(input())
+l = [[i, j, k] for i in range(0, x + 1) for j in range(0, y + 1) for k in range(0, z + 1) if i + j + k != n]
+print(l)
 
-    b = int(e2.get())
-
-    res = a + b
-
-    s.set(res)
-
-
-
-def subnumber():
-    a=int(e1.get())
-
-    b = int(e2.get())
-
-    res = a - b
-
-    s.set(res)
-
-#tkinter module is used to create GUI
-
-cal=Tk()#this method is used to create a new window
-
-s=StringVar()#it reads data from the input fields and process
-
-Label(cal,text="Enter First number").grid(row=0,column=0)
-Label(cal,text="Enter Second number").grid(row=1,column=0)
-Result=Label(cal,text="",textvariables=s).grid(row=2,column=0)
-e1=Entry(cal)
-e2=Entry(cal)
-e1.grid(row=0,column=1)
-e2.grid(row=1,column=1)
-b1=Button(cal,text="ADD",command=addnumber)
-b2=Button(cal,text="SUB",command=subnumber)
-b1.grid(row=2,column=1)
-mainloop()
